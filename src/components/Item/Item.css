@@ -1,0 +1,40 @@
+.card{
+    background-color: darkkhaki;
+    border-radius: 10px;
+    
+}
+.cart-button{
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid salmon;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background: rgb(243, 241, 217);
+    box-shadow: 0 0 10px #ee6dae, 0 0 40px #ee6dae, 0 0 80px #ee6dae;
+    cursor: inherit;
+    transition: 0.5s;
+}
+
+.cart-button{
+    background-color: darkolivegreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(2, 54, 6);
+    border-radius: 5px;
+}
+.cart-button:hover{
+    background: rgb(177, 243, 164);
+    box-shadow: 0 0 10px #024420, 0 0 40px #024420, 0 0 80px #024420;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card img{
+    height: 200px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 175px;
+}

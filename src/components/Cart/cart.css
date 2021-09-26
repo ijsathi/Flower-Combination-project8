@@ -1,0 +1,23 @@
+.cart{
+    width:  300px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.cart h1{
+    color: rgb(4, 36, 4);
+}
+.symbol{
+    color: crimson;
+}
+.list{
+    color: rgb(2, 68, 24);
+}
+.list-name{
+    font-weight: bold;
+}
+.combination{
+    color: rgb(4, 36, 4);
+}
+.awesome-icon{
+    color: rgb(7, 0, 14);
+}

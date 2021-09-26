@@ -1,0 +1,48 @@
+.header-img {
+    text-align: center;
+}
+.img-icon{
+    width: 100px;
+    size: 10px;
+    animation: myimg 3s infinite linear;
+}
+
+.header-title{
+    background-color: darkkhaki;
+    border: 2px solid rgb(133, 125, 11);
+    border-radius: 4px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.header-title:hover{
+    background: rgb(243, 241, 217);
+    box-shadow: 0 0 10px #ee6dae, 0 0 40px #ee6dae, 0 0 80px #ee6dae;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.span{
+    color: crimson;
+    font-size: 50px;
+}
+.span:hover{
+    color:rgb(92, 2, 20) ;
+    background: rgb(243, 189, 198);
+    box-shadow: 0 0 10px #35001b, 0 0 40px #35001b, 0 0 80px #35001b;
+    transition: 1s;
+    cursor: no-drop;
+}
+.span-flower:hover{
+    color:rgb(19, 20, 20) ;
+    background: rgb(238, 234, 173);
+    box-shadow: 0 0 10px #2b292a, 0 0 40px #2b292a, 0 0 80px #2b292a;
+    transition: 1s;
+    cursor: no-drop;
+}
+@keyframes myimg {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
